@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&family=Roboto:ital,wght@0,500;1,700&family=Ubuntu:ital,wght@0,400;0,500;1,400&display=swap'); 
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body{
+    background-color:#081b29;
+    color: #ededed;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 28px;
+    color: #ededed;
+    font-weight: 600;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #ededed;
+    margin-left: 20px ;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Ubuntu";
+    transition: 1s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #00abf0;
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content{
+max-width: 600;
+}
+
+.home-content h1{
+font-size: 56px;
+font-weight: 500;
+}
+
+.home-content h3{
+    font-size: 32px;
+    font-weight: 500;
+    color: #00abf0;
+}
+
+.home-content p{
+    font-size: 18px;
+    margin: 20px 0 40px ;
+}
+
+.home-content .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+    
+}
+
+.btn-box a{
+display: inline-flex;
+align-items: center;
+justify-content: center ;
+width: 150px;
+height: 100%;
+background: #00abf0;
+border-radius: 2px solid #00abf0;
+border-radius: 8px;
+color: #081b29;
+font-size: 19px;
+font-weight: 600;
+text-decoration: none;
+letter-spacing: 1px;
+}
+
+.btn-box a:hover{
+    color: #ededed;
+    font-family: "Ubuntu";
+    cursor: pointer;
+    background: #0c0e11;
+    transition: 3s;
+}
